@@ -1,2 +1,7 @@
 # Redirect domain aliases to primary domain
 https://pearlandanthony.com/* https://anthonyandpearl.com/:splat 301!
+https://d7c.pearlandanthony.com/* https://anthonyandpearl.com/:splat 301!
+https://blog.anthonyandpearl.com/* https://anthonyandpearl.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://anthonyandpearl.netlify.com/* https://anthonyandpearl.com/:splat 301!
